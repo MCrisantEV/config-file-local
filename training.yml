@@ -2,3 +2,8 @@ server:
   port: 9091
 
 message = Hello WAPPE - variable de prueba
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/wappe
